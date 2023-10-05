@@ -1,0 +1,45 @@
+810862 - Vitor Lucio de Oliveira
+
+
+Guia 01-3a)
+
+a)	61(10) = x(4)
+operações	quociente 	    resto
+61/4 		=   15          + 1 (ultimo) 
+15/4		=   3	  	    + 3
+3/4		    =   0	    	+ 3 (primeiro)
+
+Base 4 = 331	
+
+b)	54(10) = x(8)
+operações	quociente 	resto
+54/8 	=	6	      + 6 (ultimo) 
+6/8 	=	0		  + 6 (primeiro)
+ 
+Base 8 = 66
+	
+c)	77(10) = x(16)
+operações	quociente 	resto
+77/16	=	4		  + 13(ultimo) 
+4/16	=	0	      +  4(primeiro)
+
+* Base hexadeecimal 13 = D*
+
+Base 16 = 4D
+
+d)	151(10) = x(16)
+operações	quociente 	resto
+151/16 	=	9 	  + 7 (ultimo) 
+9/16	=	0	  + 9 (primeiro)
+
+Base 16 = 97	
+
+e)	738(10) = x(16)
+operações	quociente 	resto
+738/16	=	46	          + 2 (ultimo) 
+46/16	=	2	 	      + 14
+2/16	=   0             + 2 (primeiro)
+
+* Base hexadeecimal 14 = D*
+
+Base 16 = 2E2	

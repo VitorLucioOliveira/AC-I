@@ -1,0 +1,60 @@
+810862 - Vitor Lucio de Oliveira
+
+Guia 02-3a)
+
+   a)  0,010010(2) = X(4)
+
+    DECIMAL= 0,2815
+
+    operação     produto        inteiro 
+    0,2815 * 4 = 1,126          1         0,1 (primeiro)
+    0,126 * 4 =0,504            0         0,0
+    0,504 * 4 = 2,016           2         0,2 (último)
+
+    resultado = 0,102(4)
+
+
+  
+    b)  0,100101(2) = X(8)
+
+    DECIMAL= 0.5625
+
+    operação     produto        inteiro 
+    0.5625 * 8   = 4,5            4          0,4 (primeiro)
+    0,5 * 8      = 4,0000         4          0,4 (último)
+
+    resultado = 0,45(8)  
+    
+    
+    
+    c)   0,101011(2) = X(16)
+
+    DECIMAL= 0,672125
+
+    operação         produto           inteiro 
+    0,672125 * 16     = 10,754           10          0,10 (primeiro)
+    0,754 * 16        = 12,064           12          0,12 (último)
+   
+    resultado = 0,AC(16) 
+
+
+    d.) 1,110001(2) = X(8)
+
+    Agrupamento = 1,[110] [001]
+
+    operação     produto        
+    110            = 6         (primeiro)
+    001            = 1         (último)
+
+    resultado = 1,61(8)
+
+    e)   1110,1001(2) = X(16)
+
+    Agrupamento = [1110],[1001]
+
+    operação         produto           inteiro 
+    1110              = 14          E         (primeiro)
+    1001              = 9           F         (último)
+    
+    resultado = E,9(16) 
+

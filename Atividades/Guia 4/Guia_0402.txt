@@ -1,0 +1,17 @@
+810862 - Vitor Lucio de Oliveira
+
+Guia 04-2)
+
+02.) 
+
+a.) x' . ( x + y' )' = x' . y 
+
+b.) ( x + y' ) + ( x . y ) = x . (y'+ y)
+
+c.) ( x . y' )' . ( x + y' ) = (y + y') .(x'+x)
+
+d.) ( x' . y )' + ( x' + y )' = (x + y')^2
+
+e.) ( y + x' )' . ( y + x' ) = (y'+y). (x'+x)
+
+

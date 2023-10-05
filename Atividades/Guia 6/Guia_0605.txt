@@ -1,0 +1,17 @@
+810862 - Vitor Lucio de Oliveira
+
+
+05.) 
+
+Equação: ('x+y')' . (x.y)' + ((y.z) + x')'
+
+Mapa de Veitch-Karnaugh
+
+   |    z'   |   z   
+x' |         |          y'
+x' |         |          y
+x  |         |          y
+x  |         |          y'
+
+
+  

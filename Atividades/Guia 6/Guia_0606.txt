@@ -1,0 +1,14 @@
+810862 - Vitor Lucio de Oliveira
+
+06.) 
+
+Equação: (Y'+ X' + W)' . (Y.X.W')' + ((Z.W.Y) + X')' 
+
+Mapa de Veitch-Karnaugh
+
+  |    W     |   W     |  W'    | W'
+X |          |   0     |        |     Y
+X |          |         |        |     Y'
+X'|          |         |        |     Y'
+X'|          |         |        |     Y
+        Z    |    Z'   |  Z'    | Z      

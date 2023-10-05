@@ -1,0 +1,79 @@
+810862 - Vitor Lucio de Oliveira
+
+Guia 01-1a)
+
+a)	26(10) = x(2)
+operações	quociente 	resto
+26/2 		=   13	          + 0 (ultimo) 
+13/2		=   6	  	  + 1
+6/2		=   3	    	  + 0
+3/2		=   1		  + 1
+1/2		=   0		  + 1 (primeiro)
+
+Sistema biário= 11010	
+
+b)	53(10) = x(2)
+operações	quociente 	resto
+53/2 	=	26		  + 1 (ultimo) 
+26/2	=	13		  + 0
+13/2	=        6	          + 1
+6/2	=        3		  + 0
+3/2	=        1		  + 1 
+1/2     =	 0		  + 1 (primeiro)
+ 
+Sistema biário= 110101	
+	
+c)	723(10) = x(2)
+operações	quociente 	resto
+723/2 	=	361		  + 1 (ultimo) 
+361/2	=	180		  + 1
+180/2	=       90	          + 0
+90/2	=       45	  	  + 0
+45/2	=       22		  + 1 
+22/2    =	11		  + 0 
+11/2	=	5		  + 1
+5/2	=	2		  + 1
+2/2	=	1		  + 0
+1/2	=	0		  + 1 (primeiro)
+
+Sistema biário= 1011010011	
+
+d)	312(10) = x(2)
+operações	quociente 	resto
+312/2 	=	156	 	  + 0 (ultimo) 
+156/2	=	78		  + 0
+78/2	=       39                + 0
+39/2	=       19	  	  + 1
+19/2	=        9		  + 1 
+9/2     =	 4		  + 1 
+4/2	=	 2		  + 0
+2/2	=	 1		  + 0
+1/2	=	 0		  + 1 (primeiro)
+
+Sistema biário= 1001111000		
+
+e)	365(10) = x(2)
+operações	quociente 	resto
+365/2 	=	182 	          + 1 (ultimo) 
+182/2	=	91	 	  + 0
+91/2	=       45                + 1
+45/2	=       22	  	  + 1
+22/2	=       11		  + 0 
+11/2    =	5		  + 1 
+5/2	=	2		  + 1
+2/2	=	1		  + 0
+1/2	=	0		  + 1 (primeiro)
+
+Sistema biário= 101101101	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
