@@ -1,0 +1,90 @@
+01.) Dado o mapa de Veitch-Karnaugh:
+Determinar e implementar os circuitos equivalentes em Verilog e no Logisim:
+
+    a.) expressão canônica para SoP(a,b,c,d)
+
+    SoP(a, b, c, d) = a'b'c'd' + a'b'c'd + a'b'cd' + a'b'cd + a'bc'd' + a'bcd + ab'c'd' + ab'c'd + abcd' + abcd + abc'd + abc
+
+    b.) expressão canônica para PoS(A,B,C,D)
+
+    PoS(A, B, C, D) = (A+B+C+D')(A+B+C'+D)(A+B'+C+D)(A+B'+C'+D)(A'+B+C+D')(A'+B+C'+D')(A'+B'+C+D')(A'+B'+C'+D)
+
+
+    c.) simplificação de mintermos por mapa de Veitch-Karnaugh
+
+
+    d.) simplificação de MAXTERMOS por mapa de Veitch-Karnaugh
+
+
+    e.) expressão SoP equivalente com portas NAND (usar dupla negação)
+
+    module sop_nand_circuit(input a, input b, input c, input d, output reg out);
+        wire nand1, nand2, nand3, nand4, nand5, nand6, nand7, nand8, nand9, nand10, nand11, nand12, nand13, nand14, nand15, nand16;
+        
+        nand #(2) n1 (nand1, a, b);
+        nand #(2) n2 (nand2, a, b);
+        nand #(2) n3 (nand3, a, c);
+        nand #(2) n4 (nand4, a, c);
+        nand #(2) n5 (nand5, b, c);
+        nand #(2) n6 (nand6, b, c);
+        nand #(2) n7 (nand7, b, d);
+        nand #(2) n8 (nand8, b, d);
+        nand #(2) n9 (nand9, nand1, c);
+        nand #(2) n10 (nand10, nand1, d);
+        nand #(2) n11 (nand11, nand2, d);
+        nand #(2) n12 (nand12, nand2, c);
+        nand #(2) n13 (nand13, nand3, d);
+        nand #(2) n14 (nand14, nand3, b);
+        nand #(2) n15 (nand15, nand4, d);
+        nand #(2) n16 (nand16, nand4, b);
+        
+        always @* begin
+            out = ~(nand5 & nand6 & nand7 & nand8 & nand9 & nand10 & nand11 & nand12 & nand13 & nand14 & nand15 & nand16);
+        end
+    endmodule
+
+    f .) expressão PoS equivalente com portas NOR (usar dupla negação)
+
+    module pos_nor_circuit(input A, input B, input C, input D, output reg out);
+        wire nor1, nor2, nor3, nor4, nor5, nor6, nor7, nor8, nor9, nor10, nor11, nor12, nor13, nor14, nor15, nor16;
+        
+        nor #(2) n1 (nor1, A, B);
+        nor #(2) n2 (nor2, A, B);
+        nor #(2) n3 (nor3, A, C);
+        nor #(2) n4 (nor4, A, C);
+        nor #(2) n5 (nor5, B, C);
+        nor #(2) n6 (nor6, B, C);
+        nor #(2) n7 (nor7, B, D);
+        nor #(2) n8 (nor8, B, D);
+        nor #(2) n9 (nor9, nor1, C);
+        nor #(2) n10 (nor10, nor1, D);
+        nor #(2) n11 (nor11, nor2, D);
+        nor #(2) n12 (nor12, nor2, C);
+        nor #(2) n13 (nor13, nor3, D);
+        nor #(2) n14 (nor14, nor3, B);
+        nor #(2) n15 (nor15, nor4, D);
+        nor #(2) n16 (nor16, nor4, B);
+        
+        always @* begin
+            out = ~(nor5 | nor6 | nor7 | nor8 | nor9 | nor10 | nor11 | nor12 | nor13 | nor14 | nor15 | nor16);
+        end
+    endmodule
+
+
+04.) Dado o valor negativo, em complemento de 2, 357(8) , com um byte de representação
+
+    a.) encontrar o positivo na base 2
+
+        3:011
+        5:101
+        7:111
+        ​
+        011101011
+
+    b.) representar em um byte 4 vezes o valor do binário equivalente
+
+        011101011×4=01110101100
+
+    c.) representar em um byte o valor do binário equivalente dividido por 8
+
+        011101011÷8=000111010
