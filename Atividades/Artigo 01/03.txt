@@ -1,0 +1,29 @@
+810862 - Vitor Lucio de Oliveira
+
+
+*CPLD = Dispositivo  de  Lógica Programável  Complexa  (CPLD), 
+tem  características  necessárias  para  o desenvolvimento  de  controladores  lógicos  programáveis  como,
+alta  durabilidade, alta versatilidade, velocidade de resposta
+e  facilidade  de  programação  no  ambiente  windows  isso  com  a  mesma eficiência dos controladores já existentes no mercado;
+
+*ASIC= (Application Specific IC) Tecnologia utilizada na construção dos circuitos integrados digitais.
+Caracterizados pela necessidade de um processo de fabricação especial,
+que requer máscaras específicas para cada projeto. 
+Essa característica acarreta em altos custos de projeto e um longo tempo de desenvolvimento para esse tipo de implementação,
+em caso de grandes implementações esse alto custo é amortizado;
+
+*ASSP= (O produto padrão específico de aplicativo) São programados para um uso específico e vendidos como parte de um dispositivo ou componente específico. 
+Os ASSPs são comumente usados em uma variedade de dispositivos que dependem fortemente de chips computadorizados, como carros, câmeras e computadores;
+
+*SPLD= (Simple PLDs) Categoria de todos os pequenos PLDs, como PLAs, PALs, GALs e PALCEs 
+cujas caracteristicas mais importantes são o baixo custo e alto desempenho;
+
+*CPLD=  (Complex PLDs) Integração de vários SPLDs em um único chip, 
+feito para produzir dispositivos com maior capacidade baseados na arquitetura SPLD.
+Atualmente chegando ate 50 dispositivos SPLDs;
+
+*SOC= (Sistema em um Chip) É um sistema que integra todos os componentes de um computador ou outro sistema eletrônico em um único chip.
+A ideia é consolidar esses componentes em um único chip para economizar espaço, reduzir consumo de energia e simplificar o design de sistemas eletrônicos;
+
+*FPGA= (Field Programmable Gate Array) Grande arranjo de células configuráveis contidos em um único chip,
+podendo ter funções logicas de grande complixidade;

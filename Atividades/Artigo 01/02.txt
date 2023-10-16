@@ -1,0 +1,98 @@
+810862 - Vitor Lucio de Oliveira
+
+
+Identificação do autor: 
+
+Weber, A. F.,
+Cechinel, H., 
+Theisges, M., 
+& Moecke, M.
+
+Título da fonte: 
+
+"Arquitetura FPGAs e CPLDs da ALTERA"
+
+Todas as referências usadas: 
+
+[1] PEDRONI, Volnei A Eletrônica Digital Moderna e VHDL: Princípios Digitais,
+Eletrônica Digital, Projeto Digital, Microeletrônica e VHDL; 1ª ed. Rio de
+Janeiro:Elsevier, 2010.619p.
+
+[2]OLIVEIRA, Carlos Ronaldo Lucas de. Desenvolvimento de Glue Logic Para a
+Plataforma de Telecomunicação. 2007. 55 f. TCC (Graduação) ­ Curso de Engenharia de
+Teleinformática, Universidade Federal do Ceará, Fortaleza, 2007. Cap. 2. Disponível em:
+<http://www.cgeti.ufc.br/monografias/CARLOS_RONALDO_LUCAS_DE_OLIVEIRA.pdf
+>. Acesso em: 4 maio 2016.
+
+[3] WIKIPÉDIA. Xilinx. Disponível em: <https://pt.wikipedia.org/wiki/Xilinx>. Acesso em:
+4 maio 2016.
+
+[4] Barr, Michael. “Programmable Logic: What’s it to ya?”, Embedded Systems
+Programming, Junho, 1999, p. 75­84. Disponível em:
+<http://people.cs.georgetown.edu/~squier/Teaching/HardwareFundamentals/LC3­trunk/docs/
+README­ProgrammableLogicOverview.pdf> . Acesso em: 7 maio 2016.
+
+[5] GROUT, Ian. Digital Systems Design with FPGAs and CPLDs. Oxford, Uk: Elsevier,
+2008. 724 p.
+
+[6] XILINX. CPLD. Disponível em: <http://www.xilinx.com/cpld/>. Acesso em: 2 maio
+2016.
+
+[7] ALTERA. MAX 7000 Family: High­Performance CPLDs. Disponível em:
+<https://www.altera.com/products/general/devices/max7k/m7k­index.html>. Acesso em: 7
+maio 2016.
+
+[8] SILVA, Gabriel P. Dispositivos lógicos programáveis. Rio de Janeiro, 2009. 58 slides,
+color. Disponível em: <http://www.dcc.ufrj.br/~gabriel/circlog/DispLogPro.pdf>. Acesso em:
+7 maio 2016.
+
+[9] Barr, Michael. “Programmable Logic: What’s it to ya?”, Embedded Systems
+Programming, Junho, 1999, p. 75­84. Disponível em:
+<http://people.cs.georgetown.edu/~squier/Teaching/HardwareFundamentals/LC3­trunk/docs/
+README­ProgrammableLogicOverview.pdf> . Acesso em: 7 maio 2016.
+[10] MURTHY, Y. narasimha. CPLD & FPGA ARCHITECTURE & APPLICATIONS.
+2013. 21 f. Tese (Doutorado) ­ Curso de Wwww, S S B N College, Anantapur,, 2013.
+Disponível em: <http://www.slideshare.net/yayavaram/unit­i­programmable­logic>. Acesso
+em: 7 maio 2016.
+
+[11]TEIXEIRA, Marco Antônio. Técnicas de reconfigurabilidade dos FPGAs da família
+APEX 20K ­ Altera. 2002. 142 f. Dissertação (Mestrado) ­ Curso de Ciências de
+Computação e Matemática Computacional, USP, São Carlos, 2002. Disponível em:
+<http://www.teses.usp.br/teses/disponiveis/55/55134/tde­11092002­164901/en.php>. Acesso
+em: 8 maio 2016.
+
+[12] DINIZ, Amanda Regina Mascarenhas. Arquitetura de Hardware Reconfigurável
+Paralela Dedicada para a Implementação da SA­DCT. 2008. 93 f. Dissertação (Mestrado)
+­ Curso de Pós­graduação em Engenharia Elétrica, Pontifícia Universidade Católica de Minas
+Gerais, Belo Horizonte, 2008. Disponível em:
+<http://www.biblioteca.pucminas.br/teses/EngEletrica_DinizAR_1.pdf>. Acesso em: 8 maio
+2016.
+
+[13] DEAECTO, Profa. Grace S.. Circuitos Lógicos. Campinas: São Paulo, 2013. 43 slides,
+color. Disponível em: <http://www.fem.unicamp.br/~grace/DLP.pdf>. Acesso em: 8 maio
+2016.
+
+[14]OLIVEIRA, Caio Augusto de; AGUIAR, Jéssica Azevedo de; FONTANINI, Mateus
+Galvão Said. Dispositivos Lógicos Programáveis. 2000. 43 f. Universidade Estadual
+Paulista, Guaratinguetá, . Disponível em:
+<http://www2.feg.unesp.br/Home/PaginasPessoais/ProfMarceloWendling/logica­programave
+l.pdf>. Acesso em: 8 maio 2016.
+
+[15] GÓMEZ, Luz Marina Gómez. Regress ̃ao n ̃ao paramétrica com processos estacion
+ários α­mixing via ondaletas. 2012. 115 f. Tese (Doutorado) ­ Curso de Estatística, Instituto
+de Matemática e Estatística da Universidade de São Paulo, São Paulo, 2012. Disponível em:
+<http://www.teses.usp.br/teses/disponiveis/45/45133/tde­19062013­153433/pt­br.php>.
+Acesso em: 8 maio 2016.
+
+[16] NORONHA, Diego Barbosa; ONTOURA, Kleber Lopes F; VIEIRA JÚNIOR, João
+Batista. UMA VISÃO GERAL SOBRE DISPOSIT IVOS LÓGICOS
+RECONFIGURÁVEIS (FPGA) E SUAS APLICAÇÕES. Uberlândia.. Disponível em:
+<http://www.ceel.eletrica.ufu.br/artigos2005/ceel2005_059.pdf>. Acesso em: 8 maio 2016.
+
+[17] ALTERA. Altera FPGAs. Disponível em:
+<https://www.altera.com/products/fpga/overview.html>. Acesso em: 8 maio 2016.
+
+[18] CODÁ, Profa. Luiza Maria Romeiro. DISPOSITIVOS LÓGICOS
+PROGRAMÁVEIS. Disponível em:
+<http://disciplinas.stoa.usp.br/pluginfile.php/185840/mod_resource/content/1/DISPOSITIVO
+S LÓGICOS PROGRAMÁVEIS_2014.pdf>. Acesso em: 8 maio 2016.

@@ -1,0 +1,13 @@
+810862 - Vitor Lucio de Oliveira
+
+Ao ler O CPLD (Dispositivo Complexo de Lógica Programação aplicado em automação industrial*) 
+de autoria de Tiago Tobias Freitas, Thiago Luiz Pasqualinoto e Juliano Carlos Leão,
+posso relaciona-lo a outro artigo feito pelo IFSC (Instituto Federeal de Santa Catarina)
+de autoria de André Felippe Weber, Helenluciany Cechinel, Maria Luiza Theisges e Marcos Moecke,
+Arquitetura FPGAs e CPLDs da ALTERA;
+
+Tal artigo supracitado, apesar de ser curto, é bem direto sobre a utilização e arquitetura de FPGAs e CPLDs,
+seus impactos na indústria e como são utilizados em automação industrial, 
+alem de inspirar a melhora para novas tecnologias. E contem modelos exemplos de FPGAs e CPLDs mais explicativos e detalhados.
+Alem de complementar dados e detalhar mais sobre o assunto dos artigos ofecidos, sendo uma forma simplificada e direto das informações apresentadas.
+

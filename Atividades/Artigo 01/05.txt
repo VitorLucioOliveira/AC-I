@@ -1,0 +1,43 @@
+810862 - Vitor Lucio de Oliveira
+
+
+*CPLD:
+
+----Tamanho e Complexidade-------
+Dispositivos de menor porte e complexidade em comparação com os FPGA. 
+Elas são mais adequadas para implementar funções lógicas simples a médias em aplicações de menor escala.
+
+----Estrutura de Programação-----
+Baseadas em uma matriz de dispositivos lógicos programáveis (PLD), que consiste em uma série de portas lógicas e flip-flops. 
+Elas são mais adequadas para funções lógicas de baixa a média complexidade e são mais estáticas em relação à programação quando comparadas aos FPGA.
+
+-----Consumo de Energia----------
+Tendem a consumir menos energia que FPGA.
+Isso as torna adequadas para aplicações com requisitos de baixo consumo de energia, 
+como dispositivos alimentados por baterias ou sistemas de controle de baixa potência.
+
+-----Aplicações Típicas---------
+Usadas em sistemas embarcados simples, dispositivos de interface, controladores de periféricos, 
+sistemas de controle de baixa complexidade e outras aplicações onde a simplicidade e a economia de energia são importantes.
+
+
+*FPGA:
+
+----Tamanho e Complexidade-------
+Dispositivos de maior porte e complexidade. 
+Eles contêm uma grande quantidade de blocos lógicos programáveis, elementos de memória, DSP (Digital Signal Processing) e outros recursos.
+Como resultado, eles são adequados para implementar sistemas digitais muito complexos e de grande escala.
+
+----Estrutura de Programação-----
+
+Têm uma arquitetura orientada por recursos, com blocos lógicos programáveis e interconexões que permitem implementar funções lógicas de alto nível. 
+Eles são altamente flexíveis e podem ser reprogramados para uma ampla variedade de aplicações.
+
+-----Consumo de Energia----------
+
+Tendem a consumir mais energia em comparação com as CPLDs. 
+Isso os torna mais adequados para aplicações onde o desempenho é prioritário e o consumo de energia é menos crítico.
+
+-----Aplicações Típicas---------
+Comuns em aplicações de processamento de sinal, comunicações, servidores de rede, processamento de imagens,
+computação de alto desempenho e muitas outras aplicações de alta complexidade.

@@ -1,0 +1,23 @@
+810862 - Vitor Lucio de Oliveira
+
+
+*PROM: 
+/ Primeiro tipo de chip programável pelo usuário, que podia implementar circuitos lógicos / 
+/ Contêm um decodificador completo para seus endereços de entradas /
+/ Arquitetura ineficiente para circuitos lógicos /
+/ Apenas serviram de inspiração para  os PLAs /
+
+*PLAs:
+/ Primeiros dispositivos desenvolvidos especificamente para implementação de circuitos lógicos /
+/ Inspirado pelo PROM /
+/ Só tem duas portas logicas: wired-AND e wired-OR /
+/ Desvantagens devido aos dois níveis de lógica configurável, gerando alto custo de fabricação/
+/ Apenas serviram de inspiração para  os PALs /
+
+*PAL:
+/ Desenvolvido para suprir as desvantagens do PLA /
+/ Só tem uma porta logica: wired-AND /
+/ Um plano OR fixo /
+/ Base para algumas das novas e mais sofisticadas arquiteturas /
+
+*Conclusão: Sequindo a ordem supracitada, os dispositivos foram evoluindo ( PROM-->PLA-->PAL )  e se tornando mais eficientes, até chegar nos PALs, que são os mais utilizados atualmente.
