@@ -1,0 +1,12 @@
+Programa para calcular dado04 = dado01 - dado02 - dado03 em 8 bits codificados em BCD
+
+MVI A, dado01   ; Carrega dado01 no registrador A
+SUB dado02      ; Subtrai dado02 do registrador A
+SUB dado03      ; Subtrai dado03 do registrador A
+MOV B, A        ; Move o resultado para B
+
+DAA             ; Ajusta o resultado para BCD
+
+MOV dado04, B   ; Armazena o resultado em dado04
+
+HLT             ; Termina a execução do programa

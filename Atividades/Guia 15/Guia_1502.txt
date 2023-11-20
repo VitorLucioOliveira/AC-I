@@ -1,0 +1,37 @@
+Programa para calcular dado04 = dado01 - dado02 + dado03 em 16 bits (complemento de 2)
+
+MVI H, 00       ; Inicializa o registrador H
+MVI L, dado01   ; Carrega os bits mais baixos de dado01 no registrador L
+MOV B, L        ; Copia o valor de L para B
+
+MVI H, 00       ; Reinicializa o registrador H
+MVI L, dado02   ; Carrega os bits mais baixos de dado02 no registrador L
+MOV C, L        ; Copia o valor de L para C
+
+CALL SUBTRACT   ; Chama a sub-rotina para subtrair dado02 de dado01
+
+MOV E, A        ; Move o resultado para E
+
+MVI H, 00       ; Reinicializa o registrador H
+MVI L, dado03   ; Carrega os bits mais baixos de dado03 no registrador L
+MOV B, L        ; Copia o valor de L para B
+
+CALL ADD        ; Chama a sub-rotina para adicionar dado03 ao resultado
+
+MOV dado04, D   ; Armazena o resultado em dado04
+
+HLT             ; Termina a execução do programa
+
+SUBTRACT:       ; Sub-rotina para subtração
+MOV A, B        ; Move o primeiro operando para A
+MOV D, A        ; Move o primeiro operando para D
+MOV A, C        ; Move o segundo operando para A
+SUB D           ; Subtrai o primeiro operando do segundo
+RET
+
+ADD:            ; Sub-rotina para adição
+MOV A, B        ; Move o primeiro operando para A
+MOV D, A        ; Move o primeiro operando para D
+MOV A, E        ; Move o segundo operando para A
+ADD D           ; Adiciona o primeiro operando ao segundo
+RET

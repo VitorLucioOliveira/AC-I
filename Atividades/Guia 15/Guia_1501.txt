@@ -1,0 +1,8 @@
+Programa para calcular dado04 = dado01 + dado02 - dado03 em 8 bits
+
+MVI A, dado01   ; Carrega dado01 no registrador A
+ADD dado02      ; Adiciona dado02 ao registrador A
+SUB dado03      ; Subtrai dado03 do registrador A
+MOV dado04, A   ; Armazena o resultado em dado04
+
+HLT             ; Termina a execução do programa

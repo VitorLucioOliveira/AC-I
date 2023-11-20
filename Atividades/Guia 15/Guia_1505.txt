@@ -1,0 +1,18 @@
+Programa para calcular dado03 = dado01 * 4 + dado02 / 2 em 8 bits
+
+MVI A, dado01   ; Carrega dado01 no registrador A
+ADD A           ; Duplica dado01
+ADD A           ; Quadruplica dado01
+MOV B, A        ; Move o resultado para B
+
+MVI A, dado02   ; Carrega dado02 no registrador A
+MOV C, A        ; Move dado02 para C
+
+RRC             ; Rotaciona o registrador A para a direita (dividindo por 2)
+RRC
+MOV D, A        ; Move o resultado para D
+
+ADD B           ; Soma 4 * dado01 com dado02 / 2
+MOV dado03, A   ; Armazena o resultado em dado03
+
+HLT             ; Termina a execução do programa

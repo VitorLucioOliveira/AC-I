@@ -1,0 +1,12 @@
+Programa para calcular dado03 = 4 * (dado01 - 2 * dado02) em 8 bits
+
+MVI A, dado02   ; Carrega dado02 no registrador A
+DAD A           ; Dobra o valor de dado02
+MOV B, A        ; Move o resultado para B
+
+MVI A, dado01   ; Carrega dado01 no registrador A
+SUB B           ; Subtrai 2 * dado02 de dado01
+DAD D           ; Dobra o resultado
+MOV dado03, A   ; Armazena o resultado em dado03
+
+HLT             ; Termina a execução do programa
